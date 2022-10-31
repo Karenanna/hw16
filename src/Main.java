@@ -5,4 +5,5 @@ public class Main {
         masterAndMargarita.setYearPublished(2012);
         System.out.println(masterAndMargarita.getYearPublished());
     }
+
 }

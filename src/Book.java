@@ -11,19 +11,25 @@ public class Book {
         this.yearPublished = yearPublished;
     }
 
-    public String getBookName() { return  bookName;}
+    public String getBookName() {
+        return bookName;
+    }
+
     public Author getAuthor() {
         return author;
     }
 
-    public int getYearPublished(){
+    public int getYearPublished() {
         return yearPublished;
     }
+
     public void setYearPublished(int yearPublished) {
         this.yearPublished = yearPublished;
     }
     @Override
-    public String toString () {return bookName + " " + author + " "+ yearPublished;}
+     public String toString (){
+        return" Назание книги:" + this.bookName + "год выпуска" + this.yearPublished + author.toString();
+    }
 
     @Override
     public boolean equals(Object o){
